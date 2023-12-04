@@ -52,7 +52,7 @@ fn main() -> io::Result<()>
 
     println!("Content: {}", content);
 
-
+    drop(file);
 
 
 
